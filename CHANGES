@@ -1,0 +1,84 @@
+---------------------------------------------------------------------
+	ClearTrack change history
+---------------------------------------------------------------------
+
+V0.14
+31. March 2016
+
+Add transformation of vehicle xml to html
+
+Add vehicle info dialog 
+
+---------------------------------------------------------------------
+
+V0.13
+05. November 2014
+
+Add different calculation methods for tractrix curves
+
+Add export of route-turning angle values to Excel
+
+---------------------------------------------------------------------
+
+V0.12
+18. November 2002
+
+Add and remove points from a track(spline)
+
+Changed appearance and select mode for points of a track
+
+---------------------------------------------------------------------
+
+V0.11a
+28. October 2002
+
+New option: Export of a vehicles track as DXF (LWPOLYLINE)
+
+DXF Drawing buffering for better performance
+
+---------------------------------------------------------------------
+
+V0.10
+23. October 2002
+
+Insert in DXF will be displayed
+
+Bugfix of arc's angle
+
+Change of cursor depending on selected tool or when busy
+
+---------------------------------------------------------------------
+
+V0.09
+18. October 2002
+
+Select bug eliminated
+
+Zoom bug eliminated ("View all" clip DXF bounds)
+
+Loaded vehicles will be displayed in the middle of screen
+
+DXF scale with translation
+
+DXF scale scales open DXF files
+---------------------------------------------------------------------
+
+V0.08
+17. October 2002
+
+First release
+
+---------------------------------------------------------------------
+Known bugs:
+
+Select dialog for vehicles shows only different vehicle names.
+If multiple vehicles with the same name on the screen, only one will be selectable
+
+
+
+---------------------------------------------------------------------
+
+Kurt Minder
+ByteStore
+Software engineering
+info@bytestore.ch

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>Sattelaufleger</name>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-7600</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1500</x>
+			<y>1250</y>
+		</position>
+		<position>
+			<x>-12300</x>
+			<y>1250</y>
+		</position>
+		<position>
+			<x>-12300</x>
+			<y>-1250</y>
+		</position>
+		<position>
+			<x>1500</x>
+			<y>-1250</y>
+		</position>
+	</bounds>
+	
+</vehicle>

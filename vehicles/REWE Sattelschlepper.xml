@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<!--Name des Fahrzeugs-->
+	<name>REWE Sattelschlepper</name>
+	<!--Maximale Einschlag der Lenkung-->
+	<turnangle>25</turnangle>
+	<!--Definiert Fahrzeugspur. Lead in der Regel null.
+		Auf Leadposition wird das Fahrzeug  nach dem Laden angezeigt.
+		Ausnahme sind Anhänger. Die werden um die <trailer><position> verschoben!
+		Delta Lead -> Trail entspricht Achsabstand
+	-->
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-3600</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<!--Fahrzeugkarosserie als Polygon relativ zu <lead>.
+		Soll keine Karrosserie (Deichsel)angezeigt werden, Abschnit weglassen
+	-->
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1475</x>
+			<y>1300</y>
+		</position>
+		<position>
+			<x>-4365</x>
+			<y>1300</y>
+		</position>
+		<position>
+			<x>-4365</x>
+			<y>-1300</y>
+		</position>
+		<position>
+			<x>1475</x>
+			<y>-1300</y>
+		</position>
+	</bounds>
+	<!--Anhänger falls vorhanden sonst weglassen
+		Es köönnen beliebig viele Dateien verkettet werden
+	-->
+	<trailer>
+		<file>trailers/REWE Sattel.xml</file>
+		<position>
+			<x>-3175</x>
+			<y>0</y>
+		</position>
+	</trailer>
+</vehicle>

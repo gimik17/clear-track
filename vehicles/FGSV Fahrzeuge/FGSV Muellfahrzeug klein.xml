@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>FGSV Muellfahrzeug klein</name>
+	<turnangle>37.35</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-4600</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1350</x>
+			<y>1250</y>
+		</position>
+		<position>
+			<x>-7680</x>
+			<y>1250</y>
+		</position>
+		<position>
+			<x>-7680</x>
+			<y>-1250</y>
+		</position>
+		<position>
+			<x>1350</x>
+			<y>-1250</y>
+		</position>
+	</bounds>
+</vehicle>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>FGSV PKW</name>
+	<turnangle>36.12</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-2700</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>940</x>
+			<y>880</y>
+		</position>
+		<position>
+			<x>-3800</x>
+			<y>880</y>
+		</position>
+		<position>
+			<x>-3800</x>
+			<y>-880</y>
+		</position>
+		<position>
+			<x>940</x>
+			<y>-880</y>
+		</position>
+	</bounds>
+</vehicle>

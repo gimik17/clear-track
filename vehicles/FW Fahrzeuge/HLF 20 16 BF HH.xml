@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>HLF 20 16 BF HH</name>
+	Laenge beinhaltet hier die Haspel deswegen 8440mm und nich 6990
+	<turnangle>33.88</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-3610</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1440</x>
+			<y>1210</y>
+		</position>
+		<position>
+			<x>-7000</x>
+			<y>1210</y>
+		</position>
+		<position>
+			<x>-7000</x>
+			<y>-1210</y>
+		</position>
+		<position>
+			<x>1440</x>
+			<y>-1210</y>
+		</position>
+	</bounds>
+</vehicle>

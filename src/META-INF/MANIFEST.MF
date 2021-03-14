@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Specification-Version: 1.0
+Specification-Title: ClearTrack
+Implementation-Version: 0.12 Beta
+Implementation-Title: ClearTrack
+Created-By: 1.4.0 (Sun Microsystems Inc.)
+Name: ClearTrack
+Class-Path: jlfgr-1_0.jar sax.jar jaxp-api.jar crimson.jar
+Main-Class: ClearTrack
+Implementation-Vendor: ByteStore Software engineering
+Specification-Vendor: ByteStore Software engineering
+

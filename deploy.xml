@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_release" name="Create a release for ClearTrack">
+	<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+	<!--ANT 1.7 is required                                        -->
+	<target name="create_release">
+		<jar destfile="${basedir}/ClearTrack.jar" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Main-Class" value="ClearTrack"/>
+				<attribute name="Class-Path" value="."/>
+				<attribute name="Implementation-Version" value="0.14"/>
+				<attribute name="Implementation-Vendor" value="ByteStore"/>
+				<attribute name="SplashScreen-Image" value="ClearTrack.png"/>
+			</manifest>
+			<!--fileset dir="C:/Daten/Kurt/Work/ClearTrack/bin"/-->
+			<fileset dir="${basedir}/bin"/>
+			<zipfileset excludes="META-INF/*.SF" src="${basedir}/crimson.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="${basedir}/jaxp-api.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="${basedir}/jlfgr-1_0.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="${basedir}/sax.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="${basedir}/poi-3.11-beta2-20140822.jar"/>
+		</jar>
+		<zip destfile="${user.home}/Desktop/ClearTrack.zip">
+			<zipfileset dir="vehicles" prefix="vehicles"/>
+			<zipfileset dir="${basedir}" includes="ClearTrack.*"/>
+			<zipfileset dir="${basedir}" includes="dxf.tpl"/>
+			<zipfileset dir="${basedir}" includes="README"/>
+			<zipfileset dir="${basedir}" includes="CHANGES"/>
+		</zip>
+	</target>
+</project>

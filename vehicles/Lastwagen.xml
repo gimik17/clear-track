@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>Lastwagen</name>
+	<turnangle>42</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-5000</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1700</x>
+			<y>1300</y>
+		</position>
+		<position>
+			<x>-7700</x>
+			<y>1300</y>
+		</position>
+		<position>
+			<x>-7700</x>
+			<y>-1300</y>
+		</position>
+		<position>
+			<x>1700</x>
+			<y>-1300</y>
+		</position>
+	</bounds>
+</vehicle>

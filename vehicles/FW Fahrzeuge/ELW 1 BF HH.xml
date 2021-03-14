@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>ELW 1 BF HH</name>
+	<turnangle>39.96</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-3400</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>896</x>
+			<y>952</y>
+		</position>
+		<position>
+			<x>-4396</x>
+			<y>952</y>
+		</position>
+		<position>
+			<x>-4396</x>
+			<y>-952</y>
+		</position>
+		<position>
+			<x>896</x>
+			<y>-952</y>
+		</position>
+	</bounds>
+</vehicle>

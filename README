@@ -1,0 +1,31 @@
+---------------------------------------------------------------------
+	ClearTrack readme
+---------------------------------------------------------------------
+ClearTrack V0.14 Beta
+31 March 2016
+
+-System requirements
+	J2SE 1.3 and above
+
+-Installation
+	Unzip ClerTrack.zip
+
+-Start ClearTrack
+	Launch ClearTrack.jar in the finder on MacOS X machines or in the Windows explorer
+
+	or use ClearTrack.bat on Windows machines
+
+	or use ClearTrack.sh on Unix machines
+
+	or "java -jar ClearTrack.jar"
+
+-Restrictions
+
+	Only DXF drawings in text format will be recognized
+	Recognized DXF entities:
+		-ARC
+		-CIRCLE
+		-LINE
+		-POLYLINE
+		-LWPOLYLINE
+		-INSERT

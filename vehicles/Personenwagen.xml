@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>Personenwagen</name>
+	<turnangle>27.5</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-3000</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>900</x>
+			<y>950</y>
+		</position>
+		<position>
+			<x>-4200</x>
+			<y>950</y>
+		</position>
+		<position>
+			<x>-4200</x>
+			<y>-950</y>
+		</position>
+		<position>
+			<x>900</x>
+			<y>-950</y>
+		</position>
+	</bounds>
+</vehicle>

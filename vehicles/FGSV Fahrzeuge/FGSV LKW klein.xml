@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>FGSV LKW klein</name>
+	<turnangle>40.64</turnangle>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-5200</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<bounds>
+		<size>4</size>
+		<position>
+			<x>1400</x>
+			<y>1145</y>
+		</position>
+		<position>
+			<x>-8060</x>
+			<y>1145</y>
+		</position>
+		<position>
+			<x>-8060</x>
+			<y>-1145</y>
+		</position>
+		<position>
+			<x>1400</x>
+			<y>-1145</y>
+		</position>
+	</bounds>
+</vehicle>

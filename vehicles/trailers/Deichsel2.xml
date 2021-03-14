@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dimension.xsl"?>
+<vehicle>
+	<name>Deichsel</name>
+	<tracker>
+		<lead>
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+		</lead>
+		<trail>
+			<position>
+				<x>-3000</x>
+				<y>0</y>
+			</position>
+		</trail>
+	</tracker>
+	<trailer>
+		<file>Anhaenger2.xml</file>
+		<position>
+			<x>-3000</x>
+			<y>0</y>
+		</position>
+	</trailer>
+</vehicle>
